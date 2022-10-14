@@ -13,7 +13,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"tests[\"Validating status Code\"] = responseCode.code == 200;\r",
+							"tests[\"Validating status Code\"] = responseCode.code == 201;\r",
 							"\r",
 							"tests[\"validating Response body\"] = responseBody.has(\"7\");\r",
 							"\r",
