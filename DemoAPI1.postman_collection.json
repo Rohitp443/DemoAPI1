@@ -103,7 +103,7 @@
 							"\r",
 							"tests[\"Validate name\"] = response.name == \"morpheus1\";\r",
 							"tests[\"Validate Job\"] = response.job == \"leader1\";\r",
-							"tests[\"validate status code\"] = responseCode.code == 201;"
+							"tests[\"validate status code\"] = responseCode.code == 202;"
 						],
 						"type": "text/javascript"
 					}
